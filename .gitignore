@@ -1,5 +1,4 @@
 .idea
 .pytest_cache/
-src/__pycache__/
 __pycache__/
 cs_env/
