@@ -1,6 +1,7 @@
 from typing import List
 
 
+# Time Complexity: O(n^2)
 def insertion_sort(input_arr: List[int]) -> List[int]:
     arr = input_arr.copy()
 
