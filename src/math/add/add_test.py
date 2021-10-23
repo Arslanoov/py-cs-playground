@@ -1,4 +1,3 @@
-import pytest
 from add import add
 
 
