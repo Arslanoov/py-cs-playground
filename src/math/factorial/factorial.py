@@ -1,4 +1,7 @@
 def factorial_iterative(n: int) -> int:
+    if n < 0:
+        raise ArithmeticError("Incorrect value")
+
     result = 1
 
     for i in range(1, n + 1):
